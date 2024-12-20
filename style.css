@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 900px;
+    margin: 80px auto;
+}
+
+main {
+    display: flex;
+    gap: 20px
+}
+
+.profile-photo {
+    width: 300px;
+}
+
+.box {
+    border: 2px solid #010190;
+     width: 303px;
+     margin-bottom: 20px; 
+    /* padding: 20px; * */
+    /* height: 600px; */
+}
+
+.about-description {
+    padding: 20px;
+}
+
+.first-box {
+    padding: 0;
+}
+
+h1, h2 {
+    color: #24249f;
+}
+
+p, ul {
+  color: #010190;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+/*  */
+
+.section-one-second {
+    height: 242px;
+}
+
+.section-two-first, .section-two-second {
+    /* background-color: red; */
+    height: 540px;
+}
+
+.section-three-first {
+    height: 250px;
+}
+
+.section-three-second {
+    height: 290px;
+} 
+
+.section-three-third {
+    height: 520px;
+} 
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #010190;
+
+    padding: 7px;
+}
+
+.title-container img {
+    width: 30px;
+}
+
+.section-one-second {
+    padding: 0;
+}
+
+.box-description {
+    padding: 10px 20px;
+}
+
+.box-description p{
+    margin-bottom: 10px;
+}
+
+.title-dot {
+    width: 7px;
+    height: 7px;
+    background-color: #010190;
+}   
+
+.dot-container {
+    display: flex;
+    gap: 5px
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 490px) {
+    main {
+        display: block;
+    }
+
+    .box {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .profile-photo {
+        width: 100%;
+    }
+}
