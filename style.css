@@ -120,22 +120,34 @@ ul li {
 
 /* Responsive Design */
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 1112px) {
+     body {
+    margin: 40px auto;
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+}
+
+
+@media screen and (max-width: 500px) {
+     body {
+         margin: 40px auto;
+
     main {
         display: block;
     }
 
     section {
-    /* border: 2px solid; */
     height: auto;
-
     display: block;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-}
+    }
 
     .box {
-        width: 80%;
+        width: 90%;
         height: auto;
         margin: auto;
         margin-bottom: 20px;
@@ -144,4 +156,7 @@ ul li {
     .profile-photo {
         width: 100%;
     }
+
+   
+}
 }
